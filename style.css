@@ -533,8 +533,9 @@ h1.site-title a:hover {
     /* flex son */
     flex-grow: 1;
     flex-shrink: 0;
-    flex-basis: 390px;/* border: 1px solid black; */
-    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    flex-basis: 100%;
+    /* border: 1px solid black; */
+    /* box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23); */
     margin: 10px 10px;
     padding: 0 20px 10px 20px;
 }
@@ -542,10 +543,10 @@ h1.site-title a:hover {
 .flexContentDad > article.article > h2
 {
     color: #000000;
-    font-size: 18px;
-    line-height: 22px;
-    text-transform: uppercase;
-    font-weight: bold;
+    font-size: 26px;
+    line-height: calc(26px*1.5);
+    /* text-transform: uppercase; */
+    font-weight: lighter;
 }
 .author-meta > span {
     font-size: 14px;
