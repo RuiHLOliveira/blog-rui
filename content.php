@@ -14,7 +14,7 @@
 		}
 		?>
 
-		<span class="author-meta">
+		<!-- <span class="author-meta">
 			<div class="author-photo">
 				<?php echo get_avatar( get_the_author_meta( 'ID' ), 96 ); ?>
 			</div>
@@ -24,7 +24,7 @@
 					<?php echo get_the_author_meta( 'display_name' ); ?>
 				</a>
 			</span>
-		</span>
+		</span> -->
 		
 		<?php balanced_blog_widget_date_comments(); ?>
 
